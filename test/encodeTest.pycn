@@ -1,0 +1,6 @@
+定義 factorial(number:整數) 回傳值 整數:
+    如果 number 等於 零:
+        返回 一
+    否則:
+        返回 number 乘 factorial(number減一)
+    

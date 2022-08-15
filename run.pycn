@@ -1,0 +1,16 @@
+導入 sys
+導入 os
+導入 decode
+導入 encode
+
+
+定義 run():
+    如果 字串(sys.argv[一]).ends與(".py"):
+        encode.encode(字串(sys.argv[一]))
+    不然 字串(sys.argv[一]).ends與(".pycn"):
+        decode.decode(字串(sys.argv[一]))
+
+
+如果 __name__ 等於 '__main__'且 長度(sys.argv) 等於 二:
+    run()
+    os.system("pause")
